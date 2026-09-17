@@ -1,6 +1,6 @@
 {
-    "name": "Document Number Update",
-    "version": "19.0.1.0.11",
+    "name": "Document Number Regularization",
+    "version": "19.0.1.0.12",
     "author": "Ganemo",
     "maintainer": "Ganemo",
     "website": "https://www.ganemo.co",
@@ -17,7 +17,7 @@ audit trail.
     """,
     "live_test_url": "https://www.ganemo.co/demo",
     "license": "OPL-1",
-    "icon": "/account_document_number_regularization/static/description/icon.svg",
+    "icon": "/document_number_regularization/static/description/icon.svg",
     "depends": [
         "account",
         "l10n_latam_invoice_document",

@@ -1,4 +1,4 @@
-# Document Number Update
+# Document Number Regularization
 
 **Author:** [Ganemo](https://www.ganemo.co)
 
