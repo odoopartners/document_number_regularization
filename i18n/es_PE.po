@@ -1,0 +1,92 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_document_number_regularization
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: es_PE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account_document_number_regularization
+msgid "Document Number Update"
+msgstr "Actualización del número de documento"
+
+#. module: account_document_number_regularization
+msgid "Stored Document Number"
+msgstr "Número de documento almacenado"
+
+#. module: account_document_number_regularization
+msgid "Original Document Number"
+msgstr "Número de documento original"
+
+#. module: account_document_number_regularization
+msgid "Document number the vendor bill had before the first update. This value does not change after later updates."
+msgstr "Número de documento que tenía la factura de proveedor antes de la primera actualización. Este valor no cambia con las actualizaciones posteriores."
+
+#. module: account_document_number_regularization
+msgid "First Update Date"
+msgstr "Fecha de primera actualización"
+
+#. module: account_document_number_regularization
+msgid "Date and time when the document number was updated for the first time. Later updates are recorded in the chatter."
+msgstr "Fecha y hora en que se actualizó el número de documento por primera vez. Las actualizaciones posteriores se registran en el chatter."
+
+#. module: account_document_number_regularization
+msgid "First Updated by"
+msgstr "Primera actualización realizada por"
+
+#. module: account_document_number_regularization
+msgid "User who performed the first document number update. Later updates and their users are recorded in the chatter."
+msgstr "Usuario que realizó la primera actualización del número de documento. Las actualizaciones posteriores y sus usuarios se registran en el chatter."
+
+#. module: account_document_number_regularization
+msgid "First Document Number Update"
+msgstr "Primera actualización del número de documento"
+
+#. module: account_document_number_regularization
+msgid "Document Number updated: %(old_number)s → %(new_number)s"
+msgstr "Número de documento actualizado: %(old_number)s → %(new_number)s"
+
+#. module: account_document_number_regularization
+msgid "Document Number unchanged: %(number)s"
+msgstr "Número de documento sin cambios: %(number)s"
+
+#. module: account_document_number_regularization
+msgid "Update Document Number from Bill Reference"
+msgstr "Actualizar número de documento desde la referencia de factura"
+
+#. module: account_document_number_regularization
+msgid "Only an Accounting Manager can execute this action."
+msgstr "Solo un responsable de Contabilidad puede ejecutar esta acción."
+
+#. module: account_document_number_regularization
+msgid "Document number update completed"
+msgstr "Actualización del número de documento completada"
+
+#. module: account_document_number_regularization
+msgid "and %s more documents"
+msgstr "y %s documentos más"
+
+#. module: account_document_number_regularization
+msgid "This action can only be used with vendor bills and vendor credit notes:%s"
+msgstr "Esta acción solo puede utilizarse con facturas y notas de crédito de proveedor:%s"
+
+#. module: account_document_number_regularization
+msgid "No document was updated. The Bill Reference is empty in:%s"
+msgstr "No se actualizó ningún documento. La referencia de factura está vacía en:%s"
+
+#. module: account_document_number_regularization
+msgid "No document was updated. The Bill Reference must use the XXXX-XXXX format (four alphanumeric characters, a hyphen and a numeric sequence). Review:%s"
+msgstr "No se actualizó ningún documento. La referencia de factura debe usar el formato XXXX-XXXX (cuatro caracteres alfanuméricos, un guion y una secuencia numérica). Revise:%s"
+
+#. module: account_document_number_regularization
+msgid "%s documents were updated."
+msgstr "Se actualizaron %s documentos."
+
+#. module: account_document_number_regularization
+msgid "%s already had the same document number."
+msgstr "%s ya tenían el mismo número de documento."

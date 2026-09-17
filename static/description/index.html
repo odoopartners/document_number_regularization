@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Number Update | Ganemo</title>
+    <meta name="description" content="Update vendor document numbers from bill references while preserving Odoo internal accounting numbers." />
+</head>
+<body>
+    <section class="oe_container" style="font-family: Arial, sans-serif; color: #333;">
+        <div style="padding: 32px; text-align: center; background: linear-gradient(135deg, #5154a5, #9451a5); color: #fff; border-radius: 16px;">
+            <h1 style="font-size: 42px; margin-bottom: 12px;">Document Number Update</h1>
+            <p style="font-size: 18px; margin: 0;">Correct supplier document numbers without changing Odoo's internal accounting sequence.</p>
+        </div>
+
+        <div style="padding: 32px 12px;">
+            <h2 style="color: #5154a5;">What this module solves</h2>
+            <p>
+                Imported or historical vendor bills may keep an internal Odoo number in the
+                <strong>Document Number</strong> field. This module lets an Accounting Manager
+                update that value from <strong>Bill Reference</strong> while preserving the
+                original accounting sequence and its audit trail.
+            </p>
+
+            <h2 style="color: #5154a5;">Key features</h2>
+            <ul style="line-height: 1.8;">
+                <li>Bulk action for vendor bills and vendor credit notes.</li>
+                <li>Validation of the <code>XXXX-XXXX</code> supplier reference format.</li>
+                <li>Preservation of the internal Odoo accounting number.</li>
+                <li>Original value, first update date and responsible user recorded for auditing.</li>
+                <li>Every document number update logged in the chatter.</li>
+                <li>Atomic processing: one invalid record cancels the complete selection.</li>
+                <li>Independent from country-specific localization modules.</li>
+            </ul>
+
+            <h2 style="color: #5154a5;">How to use it</h2>
+            <ol style="line-height: 1.8;">
+                <li>Open the vendor bills list.</li>
+                <li>Select the bills or credit notes to update.</li>
+                <li>Choose <strong>Actions &gt; Update Document Number from Bill Reference</strong>.</li>
+                <li>Review the result and audit information in the <strong>Other Info</strong> tab.</li>
+            </ol>
+
+            <div style="margin-top: 32px; padding: 20px; background: #f6f4f8; border-left: 5px solid #9451a5; border-radius: 8px;">
+                <strong>Compatibility:</strong> Odoo 19 Community and Enterprise, Odoo.sh,
+                Ganemo Online and Ganemo.SH.
+            </div>
+        </div>
+
+        <footer style="padding: 20px; text-align: center; border-top: 1px solid #ddd;">
+            <p style="margin: 0 0 8px;">
+                Developed and maintained by <a href="https://www.ganemo.co">Ganemo</a>.
+            </p>
+            <p style="margin: 0; font-size: 14px; color: #666;">
+                Functional analysis and development coordination by
+                <a href="https://www.linkedin.com/in/jonathanynciosalazar/">Jonathan Yncio Salazar</a>.
+            </p>
+        </footer>
+    </section>
+</body>
+</html>

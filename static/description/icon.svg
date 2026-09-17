@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+    <title id="title">Vendor Document Number Regularization</title>
+    <desc id="desc">Document with a verified number and synchronization arrows</desc>
+    <defs>
+        <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#5154a5"/>
+            <stop offset="1" stop-color="#9451a5"/>
+        </linearGradient>
+    </defs>
+    <rect width="512" height="512" rx="92" fill="url(#background)"/>
+    <path d="M132 76h184l72 72v246c0 23-19 42-42 42H132c-23 0-42-19-42-42V118c0-23 19-42 42-42z" fill="#fff"/>
+    <path d="M316 76v72h72" fill="#ddd9e4"/>
+    <path d="M144 205h200M144 259h142M144 313h108" fill="none" stroke="#777" stroke-linecap="round" stroke-width="24"/>
+    <circle cx="334" cy="334" r="96" fill="#00a6a6"/>
+    <path d="M287 334l31 31 62-68" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+    <path d="M113 414c-22-14-39-36-47-62M66 352l-4 39 38-8M399 98c22 14 39 36 47 62M446 160l4-39-38 8" fill="none" stroke="#42c3c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+</svg>
